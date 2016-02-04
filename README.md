@@ -1,17 +1,15 @@
 # WikimediaUI base stylesheet variables
 
-WikimediaUI repository is providing base stylesheet variables for
-Wikimedia Foundation wide products.
-In the first intital draft we are providing a Less vars containing `base.less`.
+WikimediaUI repository provides a base stylesheet with variables containing
+Wikimedia Foundation wide basic style values.
+In the intitial draft we are providing a Less vars containing `base.less` file.
 
 ## Install
-Clone the repo, `git clone git clone https://phabricator.wikimedia.org/diffusion/WMUI/wikimedia-ui.git`.
-
-No other variables should come before `base.less`.
+Clone the repo: `git clone https://phabricator.wikimedia.org/diffusion/WMUI/wikimedia-ui.git`.
 
 It is recommended that you include the `base.less` file as untouched
-library code and add specific necessary changes by overwriting the variable in
-your code.
+library code at top of central stylesheet file and – if necessary –
+add changes by overwriting the variable later in your code.
 
 ## Contribute
 Found a bug or missing feature? Please report it in the [issue tracker](
