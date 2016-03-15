@@ -28,8 +28,8 @@
 --c-destructive-hover:  #b8211f;
 --c-destructive-active: #951b19;
 --c-destructive-focus:  var( --c-destructive );
-/* Colors RGBA `--c-rgba` */
---c-rgba-highlighted:   rgba( 255, 182, 13, 0.4 );
+/* Colors RGBA */
+--c-highlighted:        rgba( 255, 182, 13, 0.4 );
 /* Opacity `--op` */
 --op-base-disabled:     0.2;
 
