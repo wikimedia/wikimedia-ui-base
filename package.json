@@ -1,0 +1,25 @@
+{
+  "name": "wmui-base",
+  "version": "0.3.0",
+  "description": "Wikimedia Foundation user interface base variables files",
+  "keywords": [
+    "ui"
+  ],
+  "homepage": "https://www.mediawiki.org/wiki/Wikimedia_User_Interface",
+  "repository": {
+    "type": "git",
+    "url": "https://phabricator.wikimedia.org/diffusion/WMUI/wikimedia-ui.git"
+  },
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-cli": "1.1.0",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-exec": "0.4.6",
+    "grunt-jsonlint": "^1.0.7",
+    "grunt-replace": "^0.11.0",
+    "update": "^0.4.2"
+  }
+}
