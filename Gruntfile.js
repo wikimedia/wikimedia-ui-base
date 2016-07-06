@@ -6,6 +6,7 @@
 module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-jsonlint' );
+	grunt.loadNpmTasks( 'grunt-stylelint' );
 
 	grunt.initConfig( {
 
@@ -17,17 +18,30 @@ module.exports = function ( grunt ) {
 			]
 		},
 
+		// Lint – Styling
+		stylelint: {
+			options: {
+				syntax: 'less'
+			},
+			src: [
+				'**/*.css',
+				'**/*.less',
+				'!node_modules/**'
+			]
+		},
+
 		// Development
 		watch: {
 			files: [
-				'<%= csslint.all %>',
-				'src/**/*.less',
-				'.{csslintrc,jscsrc,jshintignore,jshintrc}'
+				'**/*.css',
+				'**/*.less',
+				'.{stylelintrc}'
 			],
 			tasks: 'default'
 		}
 
 	} );
 
-	grunt.registerTask( 'default', ['jsonlint'] );
+	grunt.registerTask( 'lint', [ 'jsonlint', 'stylelint' ] );
+	grunt.registerTask( 'default', 'lint' );
 };

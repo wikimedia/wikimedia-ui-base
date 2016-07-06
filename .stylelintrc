@@ -1,0 +1,9 @@
+{
+	"extends": "stylelint-config-wikimedia",
+	"rules": {
+		"declaration-colon-space-after": null,
+		"indentation": null,
+		"max-empty-lines": null,
+		"string-quotes": null
+	}
+}
