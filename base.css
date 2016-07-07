@@ -4,88 +4,86 @@
  */
 
 :root {
-
-/* Colors */
-/* Background Colors `--bgc` */
---bgc-base:             #fff;
---bgc-code:             #f9f9f9;
-/* Foreground Colors `--c` */
---c-base:               #555;
---c-contrast:           #fff;
-/*--c-link:             #222; */
---c-base-disabled:      #949494;
-/* Primary Color and states */
---c-primary:            #165c91;
---c-primary-hover:      #18649e; /*= `filter: brightness( 109% );` */
---c-primary-active:     #134e7b; /*= `filter: brightness( 85% );` */
---c-primary-focus:      var( --c-primary );
-/* Secondary Color and states */
---c-secondary:          #195a59;
---c-secondary-hover:    #1c6665;
---c-secondary-active:   #134645;
---c-secondary-focus:    var( --c-secondary );
-/* Destructive Color and states */
---c-destructive:        #ab1f1d;
---c-destructive-hover:  #b8211f;
---c-destructive-active: #951b19;
---c-destructive-focus:  var( --c-destructive );
-/* Colors RGBA including hex fallback on `#fff` for IE 6/7/8 */
---c-highlighted:        rgba( 255, 182, 13, 0.4 );
---c-highlighted-fallback: #ffe29e;
-/* Opacity `--op` */
---op-base-disabled:     0.2;
-
-
-/* Positioning */
-/* Z-Index `--z` */
---z-base:               0;
+	/* Colors */
+	/* Background Colors `--bgc` */
+	--bgc-base:             #fff;
+	--bgc-code:             #f9f9f9;
+	/* Foreground Colors `--c` */
+	--c-base:               #555;
+	--c-contrast:           #fff;
+	/*--c-link:             #222; */
+	--c-base-disabled:      #949494;
+	/* Primary Color and states */
+	--c-primary:            #165c91;
+	--c-primary-hover:      #18649e; /*= `filter: brightness( 109% );` */
+	--c-primary-active:     #134e7b; /*= `filter: brightness( 85% );` */
+	--c-primary-focus:      var( --c-primary );
+	/* Secondary Color and states */
+	--c-secondary:          #195a59;
+	--c-secondary-hover:    #1c6665;
+	--c-secondary-active:   #134645;
+	--c-secondary-focus:    var( --c-secondary );
+	/* Destructive Color and states */
+	--c-destructive:        #ab1f1d;
+	--c-destructive-hover:  #b8211f;
+	--c-destructive-active: #951b19;
+	--c-destructive-focus:  var( --c-destructive );
+	/* Colors RGBA including hex fallback on `#fff` for IE 6/7/8 */
+	--c-highlighted:        rgba( 255, 182, 13, 0.4 );
+	--c-highlighted-fallback: #ffe29e;
+	/* Opacity `--op` */
+	--op-base-disabled:     0.2;
 
 
-/* Box Model properties */
-/* Max width `--maw` */
---maw-button:           28.75em; /* equivalent to `460px` at `16px` base, @see T95367 */
---maw-input-inline:     100%;
-/* Border `--bd` */
---bd-base:              1px solid var( --bdc-base );
-/* Border Colors `--bdc` */
---bdc-base:             #222;
---bdc-base-hover:       var( --c-primary );
---bdc-base-disabled:    var( --c-disabled );
---bdc-heading:          #ccc;
-/* Border Radius `--bdrs` */
---bdrs-base:            2px;
-/* Box Shadows `--bxsh` */
---bxsh-dialog:          0 0.15em 0 0 rgba( 0, 0, 0, 0.15 );
---bxsh-menu:            var( --bxsh-dialog );
---bxsh-popup:           var( --bxsh-dialog );
+	/* Positioning */
+	/* Z-Index `--z` */
+	--z-base:               0;
 
 
-/* Typography incl. Print properties */
-/* Font Family `--ff` */
---ff-base:              var( --ff-sans );
---ff-heading-main:      var( --ff-serif );
---ff-sans:              "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", sans-serif;
---ff-serif:             "Linux Libertine", Georgia, Times, serif;
-/* Line Height `--lh` */
---lh-base:              1.6;
---lh-heading:           1.25;
---td-link-hover:        none;
-/* Text Shadow `--tsh` */
---tsh-base:             0 1px 1px #fff; /* "coined" effect */
---tsh-base-disabled:    var( --tsh-base );
+	/* Box Model properties */
+	/* Max width `--maw` */
+	--maw-button:           28.75em; /* equivalent to `460px` at `16px` base, @see T95367 */
+	--maw-input-inline:     100%;
+	/* Border `--bd` */
+	--bd-base:              1px solid var( --bdc-base );
+	/* Border Colors `--bdc` */
+	--bdc-base:             #222;
+	--bdc-base-hover:       var( --c-primary );
+	--bdc-base-disabled:    var( --c-disabled );
+	--bdc-heading:          #ccc;
+	/* Border Radius `--bdrs` */
+	--bdrs-base:            2px;
+	/* Box Shadows `--bxsh` */
+	--bxsh-dialog:          0 0.15em 0 0 rgba( 0, 0, 0, 0.15 );
+	--bxsh-menu:            var( --bxsh-dialog );
+	--bxsh-popup:           var( --bxsh-dialog );
 
 
-/* Other Properties */
-/* Cursors `--cur` */
---cur-base-disabled:    default;
+	/* Typography incl. Print properties */
+	/* Font Family `--ff` */
+	--ff-base:              var( --ff-sans );
+	--ff-heading-main:      var( --ff-serif );
+	--ff-sans:              "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", sans-serif;
+	--ff-serif:             "Linux Libertine", Georgia, Times, serif;
+	/* Line Height `--lh` */
+	--lh-base:              1.6;
+	--lh-heading:           1.25;
+	--td-link-hover:        none;
+	/* Text Shadow `--tsh` */
+	--tsh-base:             0 1px 1px #fff; /* "coined" effect */
+	--tsh-base-disabled:    var( --tsh-base );
 
 
-/* Animation & Transition */
-/* Transitions `--trs` */
---trs-base:             var( --trsdu-base );
---trs-long:             var( --trsdu-long );
-/* Transitions > Durations `--trsdu` */
---trsdu-base:           0.1s;
---trsdu-long:           0.25s;
+	/* Other Properties */
+	/* Cursors `--cur` */
+	--cur-base-disabled:    default;
 
+
+	/* Animation & Transition */
+	/* Transitions `--trs` */
+	--trs-base:             var( --trsdu-base );
+	--trs-long:             var( --trsdu-long );
+	/* Transitions > Durations `--trsdu` */
+	--trsdu-base:           0.1s;
+	--trsdu-long:           0.25s;
 }
