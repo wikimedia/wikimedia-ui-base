@@ -3,14 +3,14 @@
 WikimediaUI repository provides stylesheets with variables containing
 Wikimedia Foundation wide user interface basic style values.
 In the early draft we are providing
- - `base.css` file containing variables in CSS Custom Properties syntax,
+ - `wmui-base.css` file containing variables in CSS Custom Properties syntax,
  preferably used with PostCSS
- - `base.less` file containing variables in Less syntax (exact copy from above)
+ - `wmui-base.less` file containing variables in Less syntax (exact copy from above)
 
 ## Install
 Clone the repo: `git clone https://phabricator.wikimedia.org/diffusion/WMUI/wikimedia-ui.git`.
 
-It is recommended that you include `base.css` or `base.less` file as untouched
+It is recommended that you include `wmui-base.css` or `wmui-base.less` file as untouched
 library code at top of central stylesheet file and – if necessary –
 add changes by overwriting the variable later in your code.
 
