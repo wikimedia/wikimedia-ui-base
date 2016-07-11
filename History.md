@@ -1,5 +1,8 @@
 # WikimediaUI Base Variables Release History
 
+## v0.4.0 (2016-07-11)
+* Rename "base.*" files to "wmui-base.*" files for easier utilization in other repositories
+
 ## v0.3.1 (2016-07-08)
 * Replace csslint with stylelint
 * Add `maw-input-inline` for inlined inputs
