@@ -85,6 +85,6 @@
 	--transition-base:            var( --transition-duration-base );
 	--transition-long:            var( --transition-duration-long );
 	/* Transitions > Durations */
-	--transition-duration-base:   0.1s;
-	--transition-duration-long:   0.25s;
+	--transition-duration-base:   100ms;
+	--transition-duration-long:   250ms;
 }
