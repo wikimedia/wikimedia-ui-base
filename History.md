@@ -1,5 +1,10 @@
 # WikimediaUI Base Variables Release History
 
+## v0.5.0 (2016-07-19)
+* Use non-abbreviated variable names to ensure easy utilization
+* Add `opacity-base` variable
+* Change `transition-duration` values according to findings in T77949
+
 ## v0.4.0 (2016-07-11)
 * Rename "base.*" files to "wmui-base.*" files for easier utilization in other repositories
 
