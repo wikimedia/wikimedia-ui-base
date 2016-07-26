@@ -57,7 +57,6 @@
 	/* Box Shadows */
 	--box-shadow-dialog:          0 0.15em 0 0 rgba( 0, 0, 0, 0.15 );
 	--box-shadow-menu:            var( --box-shadow-dialog );
-	--box-shadow-popup:           var( --box-shadow-dialog );
 
 
 	/* Typography incl. print properties */
