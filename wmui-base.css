@@ -5,18 +5,32 @@
 
 :root {
 	/* Colors */
+	/* WMUI color palette */
+	--wmui-color-base0:           #000;
+	--wmui-color-base10:          #222;
+	--wmui-color-base20:          #555a5f;
+	--wmui-color-base30:          #7d8389;
+	--wmui-color-base50:          #a2a9b1;
+	--wmui-color-base60:          #c8ccd1;
+	--wmui-color-base80:          #eaecf0;
+	--wmui-color-base100:         #fff;
+
+	--wmui-color-acct50:          #36c;
+
+	--wmui-color-alrt50:          #c33;
+
 	/* Background Colors */
-	--background-color-base:      #fff;
+	--background-color-base:      var( --wmui-color-base100 );
 	--background-color-code:      #f9f9f9;
 	/* Foreground Colors */
-	--color-base:                 #555;
-	--color-contrast:             #fff;
+	--color-base:                 var( --wmui-color-base10 );
+	--color-contrast:             var( --wmui-color-base100 );
 	/* --color-link:              #222; */
-	--color-base-disabled:        #949494;
+	--color-base-disabled:        var( --wmui-color-base30 );
 	/* Primary Color and states */
-	--color-primary:              #165c91;
-	--color-primary-hover:        #18649e; /*= `filter: brightness( 109% );` */
-	--color-primary-active:       #134e7b; /*= `filter: brightness( 85% );` */
+	--color-primary:              var( --wmui-color-acct50 );
+	--color-primary-hover:        #447ff5; // equals HSB 220°/72%/96%
+	--color-primary-active:       #2a4b8d; // equals HSB 220°/70%/55%
 	--color-primary-focus:        var( --color-primary );
 	/* Secondary Color and states */
 	--color-secondary:            #195a59;
@@ -24,9 +38,9 @@
 	--color-secondary-active:     #134645;
 	--color-secondary-focus:      var( --color-secondary );
 	/* Destructive Color and states */
-	--color-destructive:          #ab1f1d;
-	--color-destructive-hover:    #b8211f;
-	--color-destructive-active:   #951b19;
+	--color-destructive:          var( --wmui-color-alrt50 );
+	--color-destructive-hover:    #e53939; // equals HSB 0°/75%/90%
+	--color-destructive-active:   #873636;
 	--color-destructive-focus:    var( --color-destructive );
 	/* Colors RGBA including hex fallback on `#fff` for IE 6/7/8 */
 	--color-highlighted:          rgba( 255, 182, 13, 0.4 );
@@ -63,8 +77,8 @@
 	/* Font Families */
 	--font-family-base:           var( --font-family-sans );
 	--font-family-heading-main:   var( --font-family-serif );
-	--font-family-sans:           "Helvetica Neue", "Helvetica", "Nimbus Sans L", "Arial", "Liberation Sans", sans-serif;
-	--font-family-serif:          "Linux Libertine", "Georgia", "Times", serif;
+	--font-family-sans:           "Lato", "Helvetica Neue", "Helvetica", "Nimbus Sans L", "Arial", "Liberation Sans", sans-serif;
+	--font-family-serif:          "Charter", "Linux Libertine", "Georgia", "Times", serif;
 	/* Line Heights */
 	--line-height-base:           1.6;
 	--line-height-heading:        1.25;
