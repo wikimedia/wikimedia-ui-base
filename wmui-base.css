@@ -54,7 +54,7 @@
 	--max-width-input-inline:     100%;
 
 	/* Border */
-	--border-base:                1px solid var( --border-color-base );
+	--border-base:                var( --border-width-base ) solid var( --border-color-base );
 	/* Border Colors */
 	--border-color-base:          #9aa0a7;
 	--border-color-base-hover:    var( --color-primary );
