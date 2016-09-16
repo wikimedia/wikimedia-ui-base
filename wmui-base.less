@@ -9,8 +9,9 @@
 @background-color-code:      #f9f9f9;
 // Foreground Colors
 @color-base:                 #555;
-@color-contrast:             #fff;
-// @color-link:              #222;
+@color-base-active:          #000;
+@color-base-contrast:        #fff;
+@color-base-emphasized:      @color-base-active;
 @color-base-disabled:        #949494;
 // Primary Color and states
 @color-primary:              #165c91;
@@ -51,6 +52,8 @@
 @border-color-base-hover:    @color-primary;
 @border-color-base-disabled: @color-base-disabled;
 @border-color-heading:       #ccc;
+// Border Widths
+@border-width-base:          1px;
 // Border Radius
 @border-radius-base:         2px;
 // Box Shadows
@@ -69,7 +72,7 @@
 @line-height-heading:        1.25;
 @text-decoration-link-hover: none;
 // Text Shadows
-@text-shadow-base:           0 1px 1px @color-contrast; // "coined" effect
+@text-shadow-base:           0 1px 1px @color-base-contrast; // "coined" effect
 @text-shadow-base-disabled:  @text-shadow-base;
 
 
@@ -81,7 +84,7 @@
 /* Animation & Transition */
 // Transitions
 @transition-base:            @transition-duration-base;
-@transition-long:            @transition-duration-long;
+@transition-medium:          @transition-duration-medium;
 // Transitions > Durations
 @transition-duration-base:   100ms;
-@transition-duration-long:   250ms;
+@transition-duration-medium: 250ms;

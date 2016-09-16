@@ -10,8 +10,9 @@
 	--background-color-code:      #f9f9f9;
 	/* Foreground Colors */
 	--color-base:                 #555;
-	--color-contrast:             #fff;
-	/* --color-link:              #222; */
+	--color-base-active:          #000;
+	--color-base-contrast:        #fff;
+	--color-base-emphasized:      var( --color-base-active );
 	--color-base-disabled:        #949494;
 	/* Primary Color and states */
 	--color-primary:              #165c91;
@@ -52,6 +53,8 @@
 	--border-color-base-hover:    var( --color-primary );
 	--border-color-base-disabled: var( --color-base-disabled );
 	--border-color-heading:       #ccc;
+	/* Border Widths */
+	--border-width-base:          1px;
 	/* Border Radius */
 	--border-radius-base:         2px;
 	/* Box Shadows */
@@ -70,7 +73,7 @@
 	--line-height-heading:        1.25;
 	--text-decoration-link-hover: none;
 	/* Text Shadows */
-	--text-shadow-base:           0 1px 1px var( --color-contrast ); /* "coined" effect */
+	--text-shadow-base:           0 1px 1px var( --color-base-contrast ); /* "coined" effect */
 	--text-shadow-base-disabled:  var( --text-shadow-base );
 
 
@@ -82,8 +85,8 @@
 	/* Animation & Transition */
 	/* Transitions */
 	--transition-base:            var( --transition-duration-base );
-	--transition-long:            var( --transition-duration-long );
+	--transition-medium:          var( --transition-duration-medium );
 	/* Transitions > Durations */
 	--transition-duration-base:   100ms;
-	--transition-duration-long:   250ms;
+	--transition-duration-medium: 250ms;
 }
