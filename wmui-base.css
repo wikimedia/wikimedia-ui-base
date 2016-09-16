@@ -8,30 +8,32 @@
 	/* Background Colors */
 	--background-color-base:      #fff;
 	--background-color-code:      #f9f9f9;
+
 	/* Foreground Colors */
-	--color-base:                 #555;
+	--color-base:                 #222;
 	--color-base-active:          #000;
 	--color-base-contrast:        #fff;
 	--color-base-emphasized:      var( --color-base-active );
-	--color-base-disabled:        #949494;
-	/* Primary Color and states */
-	--color-primary:              #165c91;
-	--color-primary-hover:        #18649e; /*= `filter: brightness( 109% );` */
-	--color-primary-active:       #134e7b; /*= `filter: brightness( 85% );` */
+	--color-base-disabled:        #72777d;
+	/* Primary 'Progressive' Color and states */
+	--color-primary:              #36c;    /* = HSB 220°,75%,80% */
+	--color-primary-hover:        #447ff5; /* = `filter: brightness( 109% )` */
+	--color-primary-active:       #2a4b8d; /* = `filter: brightness( 85% )` */
 	--color-primary-focus:        var( --color-primary );
+	/* Primary 'Destructive' Color and states */
+	--color-destructive:          #c33;
+	--color-destructive-hover:    #e53939;
+	--color-destructive-active:   #873636;
+	--color-destructive-focus:    var( --color-destructive );
 	/* Secondary Color and states */
-	--color-secondary:            #195a59;
+	--color-secondary:            #00af89;
 	--color-secondary-hover:      #1c6665;
 	--color-secondary-active:     #134645;
 	--color-secondary-focus:      var( --color-secondary );
-	/* Destructive Color and states */
-	--color-destructive:          #ab1f1d;
-	--color-destructive-hover:    #b8211f;
-	--color-destructive-active:   #951b19;
-	--color-destructive-focus:    var( --color-destructive );
 	/* Colors RGBA including hex fallback on `#fff` for IE 6/7/8 */
 	--color-highlighted:          rgba( 255, 182, 13, 0.4 );
 	--color-highlighted-fallback: #ffe29e;
+
 	/* Opacity */
 	--opacity-base:               1;
 	--opacity-base-disabled:      0.2;
@@ -46,17 +48,19 @@
 	/* Max Widths */
 	--max-width-button:           28.75em; /* equivalent to `460px` at `16px` base, see T95367 */
 	--max-width-input-inline:     100%;
+
 	/* Border */
 	--border-base:                1px solid var( --border-color-base );
 	/* Border Colors */
-	--border-color-base:          #222;
+	--border-color-base:          #9aa0a7;
 	--border-color-base-hover:    var( --color-primary );
 	--border-color-base-disabled: var( --color-base-disabled );
-	--border-color-heading:       #ccc;
+	--border-color-heading:       #c8ccd1;
 	/* Border Widths */
 	--border-width-base:          1px;
 	/* Border Radius */
 	--border-radius-base:         2px;
+
 	/* Box Shadows */
 	--box-shadow-dialog:          0 0.15em 0 0 rgba( 0, 0, 0, 0.15 );
 	--box-shadow-menu:            var( --box-shadow-dialog );
