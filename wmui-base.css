@@ -39,7 +39,7 @@
 
 	/* Opacity */
 	--opacity-base:               1;
-	--opacity-base-disabled:      0.2;
+	--opacity-base-disabled:      0.51; /* = `#7d7d7d` on `background-color: #fff`, HSB 0°,0%,49% */
 
 
 	/* Positioning */
