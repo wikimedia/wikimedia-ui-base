@@ -17,9 +17,9 @@
     "grunt-contrib-watch": "1.0.0",
     "grunt-exec": "1.0.0",
     "grunt-jsonlint": "^1.0.7",
-    "grunt-replace": "^0.11.0",
-    "grunt-stylelint": "0.4.0",
-    "stylelint-config-wikimedia": "0.2.2",
-    "update": "^0.4.2"
+    "grunt-replace": "^1.0.1",
+    "grunt-stylelint": "0.6.0",
+    "stylelint-config-wikimedia": "0.3.0",
+    "update": "^0.7.4"
   }
 }
