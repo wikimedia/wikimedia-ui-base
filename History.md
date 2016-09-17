@@ -1,5 +1,19 @@
 # WikimediaUI Base Variables Release History
 
+## v0.6.0 (2016-09-17)
+* Update devDependencies to latest releases
+* Align quotes to stylelint-config-wikimedia
+* Add colors, `border*` and `box-shadow*` variables
+* Replace value with corresponding `border-width-base` variable
+* Add `color-base-hover` variable
+* Align `opacity-base-disabled` to overhauled color palette
+* Add primary and destructive `background-color-*` variables
+* Align colors to overhauled, WCAG 2.0 level AA compliant color palette
+* Add and refine variables
+* Quote all non-generic `font-family` values
+* Replace fixed text-shadow color with variable
+* Remove obsolete `box-shadow-popup` variable
+
 ## v0.5.0 (2016-07-19)
 * Use non-abbreviated variable names to ensure easy utilization
 * Add `opacity-base` variable
