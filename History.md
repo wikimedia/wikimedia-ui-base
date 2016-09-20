@@ -1,5 +1,8 @@
 # WikimediaUI Base Variables Release History
 
+## v0.6.1 (2016-09-19)
+* Remove obsolete local `string-quotes` stylelint rule
+
 ## v0.6.0 (2016-09-17)
 * Update devDependencies to latest releases
 * Align quotes to stylelint-config-wikimedia
