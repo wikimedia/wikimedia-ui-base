@@ -11,6 +11,9 @@
 @background-color-framed:     #f8f9fa;
 @background-color-framed--hover: @background-color-base;
 @background-color-framed--active: #c8ccd1;
+// RGBA Colors include hex fallback on `#fff` for IE 6/7/8
+@background-color-highlight:  rgba( 255, 182, 13, 0.4 );
+@background-color-highlight--fallback: #ffe29e;
 
 // Foreground Colors
 @color-base:                  #222;
@@ -39,9 +42,6 @@
 @color-secondary--hover:      #1c6665;
 @color-secondary--active:     #134645;
 @color-secondary--focus:      @color-secondary;
-// Colors RGBA including hex fallback on `#fff` for IE 6/7/8
-@color-highlighted:           rgba( 255, 182, 13, 0.4 );
-@color-highlighted--fallback: #ffe29e;
 
 
 // Opacity
