@@ -11,7 +11,7 @@
 	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches...) */
 	--background-color-framed:      #f8f9fa;
 	--background-color-framed--hover: var( --background-color-base );
-	--background-color-framed--active: #eaecf0;
+	--background-color-framed--active: #c8ccd1;
 
 	/* Foreground Colors */
 	--color-base:                   #222;
