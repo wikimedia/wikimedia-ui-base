@@ -33,10 +33,10 @@
 	--color-primary--active:        #2a4b8d; /* = `filter: brightness( 85% )` */
 	--color-primary--focus:         var( --color-primary );
 	/* 'Destructive' Color, Background Color and states */
-	--background-color-destructive: #fbe8e7;
-	--color-destructive:            #c33;    /* = HSB 360°, 75%, 80% */
+	--background-color-destructive: #fee7e6;
+	--color-destructive:            #d33;    /* = HSB 360°, 77%, 87% */
 	--color-destructive--hover:     #e53939;
-	--color-destructive--active:    #873636;
+	--color-destructive--active:    #b32424;
 	--color-destructive--focus:     var( --color-destructive );
 	/* Secondary Color and states (links only) */
 	--color-secondary:              #00af89;
