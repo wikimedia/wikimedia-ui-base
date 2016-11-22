@@ -1,5 +1,8 @@
 # WikimediaUI Base Variables Release History
 
+## v0.7.1 (2016-11-22)
+* Fix CSS variable notations on WikimediaUI color labels (Volker E)
+
 ## v0.7.0 (2016-11-21)
 * [BREAKING CHANGE] Turn `*highlight` variable to appropriate property (Volker E)
 * [BREAKING CHANGE] Refine variable naming (Volker E)
