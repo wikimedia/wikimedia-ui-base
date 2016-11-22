@@ -1,5 +1,15 @@
 # WikimediaUI Base Variables Release History
 
+## v0.7.0 (2016-11-21)
+* [BREAKING CHANGE] Turn `*highlight` variable to appropriate property (Volker E)
+* [BREAKING CHANGE] Refine variable naming (Volker E)
+* Introduce WikimediaUI color labels (Volker E)
+* Update “destructive” colors to tweaked color palette (Volker E)
+* Increase contrast of `background-color-framed--active` color (Volker E)
+* Add `background-color-framed--active` color (Julien Girault)
+* Replace abandoned color from early palette iteration (Volker E)
+* Set placeholder text to WCAG 2.0 level AA compliant color (Volker E)
+
 ## v0.6.1 (2016-09-19)
 * Remove obsolete local `string-quotes` stylelint rule
 
