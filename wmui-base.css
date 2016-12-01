@@ -62,7 +62,7 @@
 	/* 'Destructive' Color, Background Color and states */
 	--background-color-destructive: var( --wmui-color-red90 );
 	--color-destructive:            var( --wmui-color-red50 );
-	--color-destructive--hover:     #e53939;
+	--color-destructive--hover:     #ff4242; /* ~= `filter: brightness( 120% )` */
 	--color-destructive--active:    var( --wmui-color-red30 );
 	--color-destructive--focus:     var( --wmui-color-red50 );
 	/* Secondary Color and states (links only) */
