@@ -15,11 +15,11 @@
   "devDependencies": {
     "grunt": "1.0.1",
     "grunt-contrib-watch": "1.0.0",
-    "grunt-exec": "1.0.0",
-    "grunt-jsonlint": "^1.0.7",
-    "grunt-replace": "^1.0.1",
+    "grunt-exec": "1.0.1",
+    "grunt-jsonlint": "1.1.0",
+    "grunt-replace": "1.0.1",
     "grunt-stylelint": "0.7.0",
     "stylelint-config-wikimedia": "0.4.1",
-    "update": "^0.7.4"
+    "update": "0.7.4"
   }
 }
