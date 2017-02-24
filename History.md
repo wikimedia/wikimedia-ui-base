@@ -1,5 +1,11 @@
 # WikimediaUI Base Variables Release History
 
+## v0.8.0 (2017-02-24)
+* Add further properties and adapt `box-shadow-dialog` var (Volker E)
+* Adapt `color-destructive--hover` to brighter red (Volker E)
+* build: Bump various dev dependencies to latest (Volker E)
+* build: Bump stylelint and make pass (Volker E)
+
 ## v0.7.1 (2016-11-22)
 * Fix CSS variable notations on WikimediaUI color labels (Volker E)
 
