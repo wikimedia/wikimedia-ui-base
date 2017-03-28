@@ -1,5 +1,10 @@
 # WikimediaUI Base Variables Release History
 
+## v0.9.0 (2017-03-28)
+* [BREAKING CHANGE] Rename "wmui-base.*" files to "wikimedia-ui-base.*"
+* Add generic `font-family` fallback variables
+* build: Bump grunt-exec to latest (Volker E)
+
 ## v0.8.0 (2017-02-24)
 * Add further properties and adapt `box-shadow-dialog` var (Volker E)
 * Adapt `color-destructive--hover` to brighter red (Volker E)
@@ -20,11 +25,9 @@
 * Set placeholder text to WCAG 2.0 level AA compliant color (Volker E)
 
 ## v0.6.1 (2016-09-19)
-* Remove obsolete local `string-quotes` stylelint rule
+* build: Remove obsolete local `string-quotes` stylelint rule
 
 ## v0.6.0 (2016-09-17)
-* Update devDependencies to latest releases
-* Align quotes to stylelint-config-wikimedia
 * Add colors, `border*` and `box-shadow*` variables
 * Replace value with corresponding `border-width-base` variable
 * Add `color-base-hover` variable
@@ -35,6 +38,8 @@
 * Quote all non-generic `font-family` values
 * Replace fixed text-shadow color with variable
 * Remove obsolete `box-shadow-popup` variable
+* build: Align quotes to stylelint-config-wikimedia
+* build: Update devDependencies to latest releases
 
 ## v0.5.0 (2016-07-19)
 * Use non-abbreviated variable names to ensure easy utilization
@@ -45,11 +50,11 @@
 * Rename "base.*" files to "wmui-base.*" files for easier utilization in other repositories
 
 ## v0.3.1 (2016-07-08)
-* Replace csslint with stylelint
 * Add `maw-input-inline` for inlined inputs
 * Align indentation to stylelint-config-wikimedia default
 * Add History.md and .gitignore files
 * Minor comment clarifications and cleanups
+* build: Replace csslint with stylelint
 
 ## v0.3.0 (2016-06-30)
 * Include versioning information
