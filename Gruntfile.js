@@ -5,18 +5,9 @@
 /*jshint node:true */
 module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
-	grunt.loadNpmTasks( 'grunt-jsonlint' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
 
 	grunt.initConfig( {
-
-		// Lint – i18n
-		jsonlint: {
-			all: [
-				'**/*.json',
-				'!node_modules/**'
-			]
-		},
 
 		// Lint – Styling
 		stylelint: {
@@ -42,6 +33,6 @@ module.exports = function ( grunt ) {
 
 	} );
 
-	grunt.registerTask( 'lint', [ 'jsonlint', 'stylelint' ] );
+	grunt.registerTask( 'lint', 'stylelint' );
 	grunt.registerTask( 'default', 'lint' );
 };
