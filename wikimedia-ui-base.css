@@ -61,18 +61,18 @@
 	--color-primary:                var( --wmui-color-accent50 );
 	--color-primary--hover:         #447ff5; /* = `filter: brightness( 109% )` */
 	--color-primary--active:        var( --wmui-color-accent30 );
-	--color-primary--focus:         var( --wmui-color-accent50 );
+	--color-primary--focus:         var( --color-primary );
 	/* 'Destructive' Color, Background Color and states */
 	--background-color-destructive: var( --wmui-color-red90 );
 	--color-destructive:            var( --wmui-color-red50 );
 	--color-destructive--hover:     #ff4242; /* ~= `filter: brightness( 120% )` */
 	--color-destructive--active:    var( --wmui-color-red30 );
-	--color-destructive--focus:     var( --wmui-color-red50 );
+	--color-destructive--focus:     var( --color-destructive );
 	/* Secondary Color and states (links only) */
 	--color-secondary:              var( --wmui-color-green50 );
 	--color-secondary--hover:       #1c6665;
 	--color-secondary--active:      var( --wmui-color-green30 );
-	--color-secondary--focus:       var( --wmui-color-green50 );
+	--color-secondary--focus:       var( --color-secondary );
 	/* Validation error feedback */
 	--color-erroneous:              var( --wmui-color-red50 );
 
