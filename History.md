@@ -2,6 +2,8 @@
 
 ## v0.9.1 (2017-05-25)
 * Unify color variables reference and fix `@background-color-primary` (Volker E)
+* build: Add `npm test` script (Prateek Saxena)
+* build: Remove composer.lock from .gitignore (Prateek Saxena)
 * build: Remove npm grunt-jsonlint package & bump others (Volker E)
 
 ## v0.9.0 (2017-03-28)
