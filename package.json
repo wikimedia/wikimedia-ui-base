@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://phabricator.wikimedia.org/diffusion/WMUI/wikimedia-ui.git"
   },
+  "scripts": {
+    "test": "grunt"
+  },
   "private": true,
   "license": "MIT",
   "devDependencies": {
