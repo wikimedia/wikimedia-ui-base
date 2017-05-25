@@ -13,7 +13,6 @@
   "scripts": {
     "test": "grunt"
   },
-  "private": true,
   "license": "MIT",
   "devDependencies": {
     "grunt": "1.0.1",
