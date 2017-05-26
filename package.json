@@ -1,8 +1,10 @@
 {
   "name": "wikimedia-ui-base",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Wikimedia Foundation user interface base variables files",
   "keywords": [
+    "css",
+    "less",
     "ui"
   ],
   "homepage": "https://www.mediawiki.org/wiki/Wikimedia_User_Interface",

@@ -1,5 +1,8 @@
 # WikimediaUI Base Variables Release History
 
+## v0.9.2 (2017-05-25)
+* build: Remove `private` flag from package.json (Volker E)
+
 ## v0.9.1 (2017-05-25)
 * Unify color variables reference and fix `@background-color-primary` (Volker E)
 * build: Add `npm test` script (Prateek Saxena)
