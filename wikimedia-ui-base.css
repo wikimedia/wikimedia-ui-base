@@ -119,6 +119,7 @@
 	--box-shadow-primary-focus:     inset 0 0 0 1px var( --color-primary ), inset 0 0 0 2px var( --color-base--inverted );
 	--box-shadow-inset--inverted:   inset 0 0 0 1px var( --color-base--inverted );
 	--box-shadow-filled--disabled:  inset 0 0 0 1px var( --color-filled--disabled );
+	--box-shadow-card:              0 1px 1px rgba( 0, 0, 0, 0.15 );
 	--box-shadow-dialog:            0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
 	--box-shadow-menu:              var( --box-shadow-dialog );
 
