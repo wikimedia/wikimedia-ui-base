@@ -3,42 +3,44 @@
  * Wikimedia Foundation user interface base variables
  */
 
-/* Breakpoints */
-/**
- * Minimum available screen width at which a device can be considered a mobile device
- * Many older feature phones have screens smaller than this value.
- * Number is prone to change with new information.
- */
+// == Breakpoints ==
+// Minimum available screen width at which a device can be considered a mobile device
+// Many older feature phones have screens smaller than this value.
+// Number is prone to change with new information.
+
 @width-breakpoint-mobile: 320px;
 
-/**
- * Minimum available screen width at which a device can be considered a tablet
- * The number is currently based on the device width of a Samsung Galaxy S5 mini and is low
- * enough to cover iPad (768px). Number is prone to change with new information.
- */
+
+// Minimum available screen width at which a device can be considered a tablet
+// The number is currently based on the device width of a Samsung Galaxy S5 mini and is low
+// enough to cover iPad (768px). Number is prone to change with new information.
+
 @width-breakpoint-tablet: 720px;
 
-/**
- * Minimum available screen width at which a device can be considered a desktop
- * Number is prone to change with new information.
- */
+
+// Minimum available screen width at which a device can be considered a desktop
+// Number is prone to change with new information.
+
 @width-breakpoint-desktop: 1000px;
 
-/**
- * Wider desktop breakpoint, currently used in Flow.
- * Number is prone to change with new information.
- */
+
+// Wider desktop breakpoint, currently used in Flow.
+// Number is prone to change with new information.
+
 @width-breakpoint-desktop-wide: 1200px;
 
-/**
- * Extra wide desktop breakpoint
- * Number is prone to change with new information.
- */
+
+// Extra wide desktop breakpoint
+// Number is prone to change with new information.
+
 @width-breapoint-desktop-extrawide: 2000px;
 
 
-/* Colors */
+// == Colors ==
 // WikimediaUI (WMUI) color palette
+// Don't use those variables directly, instead define your vars
+// referring to them as applied further below
+
 @wmui-color-base0:    #000;    // = HSB 0°, 0%, 0%
 @wmui-color-base10:   #222;    // = HSB 0°, 0%, 13%
 @wmui-color-base20:   #54595d; // = HSB 207°, 10%, 36%; WCAG 2.0 level AAA 7.09:1 contrast ratio on `#fff`
@@ -118,13 +120,13 @@
 @opacity-icon-base--selected: 1;
 
 
-/* Positioning */
+// == Positioning ==
 // Z-Index
 @z-index-base:                0;
 
 
-/* Box Model properties */
-/* Max Widths */
+// == Box Model properties ==
+// Max Widths
 @max-width-button:            28.75em; // = `460px` at `16px` base, see T95367
 @max-width-input-inline:      100%;
 
@@ -158,7 +160,7 @@
 @box-shadow-menu:             @box-shadow-dialog;
 
 
-/* Typography incl. print properties */
+// == Typography incl. print properties ==
 // Font Families
 @font-family-base:            @font-family-sans;
 @font-family-heading-main:    @font-family-serif;
@@ -176,12 +178,12 @@
 @text-shadow-base--disabled:  @text-shadow-base;
 
 
-/* Other Properties */
+// == Other Properties ==
 // Cursors
 @cursor-base--disabled:       default;
 
 
-/* Animation & Transition */
+// == Animation & Transition ==
 // Transitions
 @transition-base:             @transition-duration-base;
 @transition-medium:           @transition-duration-medium;
