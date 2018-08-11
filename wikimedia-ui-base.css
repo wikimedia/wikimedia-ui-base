@@ -126,7 +126,7 @@
 	--max-width-input-inline:       100%;
 
 	/* Border */
-	--border-base:                  var( --border-width-base ) solid var( --border-color-base );
+	--border-base:                  var( --border-width-base ) var( --border-style-base ) var( --border-color-base );
 	--border-dialog:                var( --border-base );
 	--border-menu:                  var( --border-base );
 	/* Border Colors */
@@ -140,6 +140,8 @@
 	--border-color-inset--focus:    var( --color-base--inverted );
 	--border-color-heading:         var( --wmui-color-base70 );
 	--border-color-wikitable:       rgba( 84, 89, 93, 0.3 ); /* See T168029 */
+	/* Border Styles */
+	--border-style-base:            solid;
 	/* Border Widths */
 	--border-width-base:            1px;
 	/* Border Radius */

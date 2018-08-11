@@ -120,7 +120,7 @@
 @max-width-input-inline:      100%;
 
 // Border
-@border-base:                 @border-width-base solid @border-color-base;
+@border-base:                 @border-width-base @border-style-base @border-color-base;
 @border-dialog:               @border-base;
 @border-menu:                 @border-base;
 // Border Colors
@@ -134,6 +134,8 @@
 @border-color-inset--focus:   @color-base--inverted;
 @border-color-heading:        @wmui-color-base70;
 @border-color-wikitable:      rgba( 84, 89, 93, 0.3 ); // See T168029
+// Border Styles
+@border-style-base:           solid;
 // Border Widths
 @border-width-base:           1px;
 // Border Radius
