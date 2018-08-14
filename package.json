@@ -17,10 +17,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "grunt": "1.0.1",
-    "grunt-contrib-watch": "1.0.0",
-    "grunt-stylelint": "0.9.0",
-    "stylelint": "8.2.0",
-    "stylelint-config-wikimedia": "0.4.2"
+    "grunt": "1.0.3",
+    "grunt-contrib-watch": "1.1.0",
+    "grunt-stylelint": "0.10.0",
+    "stylelint": "9.2.0",
+    "stylelint-config-wikimedia": "0.4.3"
   }
 }
