@@ -66,6 +66,11 @@
 @background-color-framed--active: @wmui-color-base70;
 // 'Filled' UI elements (Checkboxes, Radios, ProgressBars…)
 @background-color-filled--disabled: @wmui-color-base70;
+// Toolbar and Tools
+@background-color-toolbar:    @background-color-base;
+@background-color-tool--hover: @background-color-base--hover;
+@background-color-tool--active: @background-color-primary;
+@background-color-tool--active-hover: @background-color-primary--hover;
 // Tabs Navigation Background Color
 @background-color-tabs:       @wmui-color-base80;
 // Highlight Colors, RGBA Colors include hex fallback on `#fff` for IE 6/7/8
@@ -102,6 +107,9 @@
 @color-secondary--focus:      @color-secondary;
 // Validation error feedback
 @color-erroneous:             @wmui-color-red50;
+// Toolbar and Tools
+@color-tool--hover:           @color-base--emphasized; // Used here in combination with `:hover` background-color turning light grey
+@color-tool--active:          @color-primary;
 
 
 // Opacity
