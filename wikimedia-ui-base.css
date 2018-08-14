@@ -63,141 +63,141 @@
 	--wmui-color-green90:  #d5fdf4; /* = HSB 166°, 16%, 99% */
 
 	/* Background Colors */
-	--background-color-base:        var( --wmui-color-base100 );
+	--background-color-base:           var( --wmui-color-base100 );
 	--background-color-base--disabled: var( --wmui-color-base80 );
-	--background-color-code:        var( --wmui-color-base90 );
+	--background-color-code:           var( --wmui-color-base90 );
 	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches…) */
-	--background-color-framed:      var( --wmui-color-base90 );
-	--background-color-framed--hover: var( --wmui-color-base100 );
+	--background-color-framed:         var( --wmui-color-base90 );
+	--background-color-framed--hover:  var( --wmui-color-base100 );
 	--background-color-framed--active: var( --wmui-color-base70 );
 	/* 'Filled' UI elements (Checkboxes, Radios, ProgressBars…) */
 	--background-color-filled--disabled: var( --wmui-color-base70 );
 	/* Toolbar and Tools */
-	--background-color-toolbar:     var( --background-color-base );
-	--background-color-tool--hover: var( --background-color-base--hover );
-	--background-color-tool--active: var( --background-color-primary );
+	--background-color-toolbar:        var( --background-color-base );
+	--background-color-tool--hover:    var( --background-color-base--hover );
+	--background-color-tool--active:   var( --background-color-primary );
 	--background-color-tool--active-hover: var( --background-color-primary--hover );
 	/* Tabs Navigation Background Color */
-	--background-color-tabs:        var( --wmui-color-base80 );
+	--background-color-tabs:           var( --wmui-color-base80 );
 	/* Highlight Colors, RGBA Colors include hex fallback on `#fff` for IE 6/7/8 */
-	--background-color-highlight:   rgba( 255, 182, 13, 0.4 );
+	--background-color-highlight:      rgba( 255, 182, 13, 0.4 );
 	--background-color-highlight--fallback: #ffe29e;
 
 	/* Foreground Colors */
-	--color-base:                   var( --wmui-color-base10 );
-	--color-base--hover:            #444;
-	--color-base--active:           var( --wmui-color-base0 );
-	--color-base--inverted:         var( --wmui-color-base100 );
-	--color-base--emphasized:       var( --color-base--active );
-	--color-base--subtle:           var( --wmui-color-base30 );
-	--color-base--disabled:         var( --wmui-color-base30 );
-	--color-filled--disabled:       var( --color-base--inverted );
-	--color-placeholder:            var( --wmui-color-base30 );
+	--color-base:                      var( --wmui-color-base10 );
+	--color-base--hover:               #444;
+	--color-base--active:              var( --wmui-color-base0 );
+	--color-base--inverted:            var( --wmui-color-base100 );
+	--color-base--emphasized:          var( --color-base--active );
+	--color-base--subtle:              var( --wmui-color-base30 );
+	--color-base--disabled:            var( --wmui-color-base30 );
+	--color-filled--disabled:          var( --color-base--inverted );
+	--color-placeholder:               var( --wmui-color-base30 );
 	/* Primary 'Progressive' Color, Background Color and states */
-	--background-color-primary:     var( --wmui-color-accent90 );
+	--background-color-primary:        var( --wmui-color-accent90 );
 	--background-color-primary--hover: rgba( 41, 98, 204, 0.1 );
-	--color-primary:                var( --wmui-color-accent50 );
-	--color-primary--hover:         #447ff5; /* = `filter: brightness( 109% )` */
-	--color-primary--active:        var( --wmui-color-accent30 );
-	--color-primary--focus:         var( --color-primary );
+	--color-primary:                   var( --wmui-color-accent50 );
+	--color-primary--hover:            #447ff5; /* = `filter: brightness( 109% )` */
+	--color-primary--active:           var( --wmui-color-accent30 );
+	--color-primary--focus:            var( --color-primary );
 	/* 'Destructive' Color, Background Color and states */
-	--background-color-destructive: var( --wmui-color-red90 );
-	--color-destructive:            var( --wmui-color-red50 );
-	--color-destructive--hover:     #ff4242; /* ~= `filter: brightness( 120% )` */
-	--color-destructive--active:    var( --wmui-color-red30 );
-	--color-destructive--focus:     var( --color-destructive );
+	--background-color-destructive:    var( --wmui-color-red90 );
+	--color-destructive:               var( --wmui-color-red50 );
+	--color-destructive--hover:        #ff4242; /* ~= `filter: brightness( 120% )` */
+	--color-destructive--active:       var( --wmui-color-red30 );
+	--color-destructive--focus:        var( --color-destructive );
 	/* Secondary Color and states (links only) */
-	--color-secondary:              var( --wmui-color-green50 );
-	--color-secondary--hover:       #1c6665;
-	--color-secondary--active:      var( --wmui-color-green30 );
-	--color-secondary--focus:       var( --color-secondary );
+	--color-secondary:                 var( --wmui-color-green50 );
+	--color-secondary--hover:          #1c6665;
+	--color-secondary--active:         var( --wmui-color-green30 );
+	--color-secondary--focus:          var( --color-secondary );
 	/* Validation error feedback */
-	--color-erroneous:              var( --wmui-color-red50 );
+	--color-erroneous:                 var( --wmui-color-red50 );
 	/* Toolbar and Tools */
-	--color-tool--hover:            var( --color-base--emphasized ); /* Used here in combination with `:hover` background-color turning light grey */
-	--color-tool--active:           var( --color-primary );
+	--color-tool--hover:               var( --color-base--emphasized ); /* Used here in combination with `:hover` background-color turning light grey */
+	--color-tool--active:              var( --color-primary );
 
 
 	/* Opacity */
-	--opacity-base:                 1;
-	--opacity-base--disabled:       0.51; /* = `#7d7d7d` on `background-color: #fff`; HSB 0°, 0%, 49% */
-	--opacity-icon-base:            0.87; /* = `#222` on `background-color: #fff` */
-	--opacity-icon-base--hover:     0.73; /* = `#454545` on `background-color: #fff`, closest to `#444` */
-	--opacity-icon-base--selected:  1;
+	--opacity-base:                    1;
+	--opacity-base--disabled:          0.51; /* = `#7d7d7d` on `background-color: #fff`; HSB 0°, 0%, 49% */
+	--opacity-icon-base:               0.87; /* = `#222` on `background-color: #fff` */
+	--opacity-icon-base--hover:        0.73; /* = `#454545` on `background-color: #fff`, closest to `#444` */
+	--opacity-icon-base--selected:     1;
 
 
 	/* == Positioning == */
 	/* Z-Index */
-	--z-index-base:                 0;
+	--z-index-base:                    0;
 
 
 	/* == Box Model properties == */
 	/* Max Widths */
-	--max-width-button:             28.75em; /* = `460px` at `16px` base, see T95367 */
-	--max-width-input-inline:       100%;
+	--max-width-button:                28.75em; /* = `460px` at `16px` base, see T95367 */
+	--max-width-input-inline:          100%;
 
 	/* Border */
-	--border-base:                  var( --border-width-base ) var( --border-style-base ) var( --border-color-base );
-	--border-dialog:                var( --border-base );
-	--border-menu:                  var( --border-base );
+	--border-base:                     var( --border-width-base ) var( --border-style-base ) var( --border-color-base );
+	--border-dialog:                   var( --border-base );
+	--border-menu:                     var( --border-base );
 	/* Border Colors */
-	--border-color-base:            var( --wmui-color-base50 );
-	--border-color-base--hover:     var( --wmui-color-base50 );
-	--border-color-base--active:    var( --wmui-color-base30 );
-	--border-color-base--disabled:  var( --wmui-color-base70 );
-	--border-color-filled-disabled: var( --color-filled--disabled );
-	--border-color-primary--active: #859dcc;
+	--border-color-base:               var( --wmui-color-base50 );
+	--border-color-base--hover:        var( --wmui-color-base50 );
+	--border-color-base--active:       var( --wmui-color-base30 );
+	--border-color-base--disabled:     var( --wmui-color-base70 );
+	--border-color-filled-disabled:    var( --color-filled--disabled );
+	--border-color-primary--active:    #859dcc;
 	--border-color-destructive--active: #b77c79;
-	--border-color-inset--focus:    var( --color-base--inverted );
-	--border-color-heading:         var( --wmui-color-base70 );
-	--border-color-wikitable:       rgba( 84, 89, 93, 0.3 ); /* See T168029 */
+	--border-color-inset--focus:       var( --color-base--inverted );
+	--border-color-heading:            var( --wmui-color-base70 );
+	--border-color-wikitable:          rgba( 84, 89, 93, 0.3 ); /* See T168029 */
 	/* Border Styles */
-	--border-style-base:            solid;
+	--border-style-base:               solid;
 	/* Border Widths */
-	--border-width-base:            1px;
+	--border-width-base:               1px;
 	/* Border Radius */
-	--border-radius-base:           2px;
+	--border-radius-base:              2px;
 
 	/* Box Shadows */
-	--box-shadow-base--focus:       inset 0 0 0 1px var( --wmui-color-accent50 );
-	--box-shadow-primary-focus:     inset 0 0 0 1px var( --color-primary ), inset 0 0 0 2px var( --color-base--inverted );
-	--box-shadow-inset--inverted:   inset 0 0 0 1px var( --color-base--inverted );
-	--box-shadow-filled--disabled:  inset 0 0 0 1px var( --color-filled--disabled );
-	--box-shadow-card:              0 1px 1px rgba( 0, 0, 0, 0.15 );
-	--box-shadow-dialog:            0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
-	--box-shadow-menu:              var( --box-shadow-dialog );
+	--box-shadow-base--focus:          inset 0 0 0 1px var( --wmui-color-accent50 );
+	--box-shadow-primary-focus:        inset 0 0 0 1px var( --color-primary ), inset 0 0 0 2px var( --color-base--inverted );
+	--box-shadow-inset--inverted:      inset 0 0 0 1px var( --color-base--inverted );
+	--box-shadow-filled--disabled:     inset 0 0 0 1px var( --color-filled--disabled );
+	--box-shadow-card:                 0 1px 1px rgba( 0, 0, 0, 0.15 );
+	--box-shadow-dialog:               0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
+	--box-shadow-menu:                 var( --box-shadow-dialog );
 
 
 	/* == Typography incl. print properties == */
 	/* Font Families */
-	--font-family-base:             var( --font-family-sans );
-	--font-family-heading-main:     var( --font-family-serif );
-	--font-family-sans:             'Helvetica Neue', 'Helvetica', 'Nimbus Sans L', 'Arial', 'Liberation Sans', sans-serif;
-	--font-family-sans--fallback:   sans-serif;
-	--font-family-serif:            'Linux Libertine', 'Georgia', 'Times', serif;
-	--font-family-serif--fallback:  serif;
-	--font-family-monospace:        monospace, monospace; /* See T176636 */
+	--font-family-base:                var( --font-family-sans );
+	--font-family-heading-main:        var( --font-family-serif );
+	--font-family-sans:                'Helvetica Neue', 'Helvetica', 'Nimbus Sans L', 'Arial', 'Liberation Sans', sans-serif;
+	--font-family-sans--fallback:      sans-serif;
+	--font-family-serif:               'Linux Libertine', 'Georgia', 'Times', serif;
+	--font-family-serif--fallback:     serif;
+	--font-family-monospace:           monospace, monospace; /* See T176636 */
 	/* Line Heights */
-	--line-height-base:             1.6;
-	--line-height-heading:          1.25;
-	--text-decoration-link--hover:  none;
+	--line-height-base:                1.6;
+	--line-height-heading:             1.25;
+	--text-decoration-link--hover:     none;
 	/* Text Shadows */
-	--text-shadow-base:             0 1px 1px var( --color-base--inverted ); /* 'coined' effect */
-	--text-shadow-base--disabled:   var( --text-shadow-base );
+	--text-shadow-base:                0 1px 1px var( --color-base--inverted ); /* 'coined' effect */
+	--text-shadow-base--disabled:      var( --text-shadow-base );
 
 
 	/* == Other Properties == */
 	/* Cursors */
-	--cursor-base--disabled:        default;
+	--cursor-base--disabled:           default;
 
 
 	/* == Animation & Transition == */
 	/* Transitions */
-	--transition-base:              var( --transition-duration-base ); /* `ease` is the initial value */
-	--transition-ease-medium:       var( --transition-duration-medium );
+	--transition-base:                 var( --transition-duration-base ); /* `ease` is the initial value */
+	--transition-ease-medium:          var( --transition-duration-medium );
 	/* `ease-out` is preferably used on human initiated transitions, for example dialogs */
-	--transition-ease-out-medium:   ease-out var( --transition-duration-medium );
+	--transition-ease-out-medium:      ease-out var( --transition-duration-medium );
 	/* Transitions > Durations */
-	--transition-duration-base:     100ms;
-	--transition-duration-medium:   250ms;
+	--transition-duration-base:        100ms;
+	--transition-duration-medium:      250ms;
 }
