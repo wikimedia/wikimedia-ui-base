@@ -1,4 +1,20 @@
 # WikimediaUI Base Variables Release History
+## v0.10.0 (2017-11-08)
+* Add `background-color-base--disabled` & `background-color-filled--disabled` variables (Volker E.)
+* Add `border-style-base` variable (Volker E)
+* Add `toolbar` and `tool` variables (Volker E)
+* Fix typo in "breakpoint" variable name (Timo Tijhof)
+* Rename non-base `transition` variable & add `transition-ease-out-medium` variable (Volker E)
+* Replace repetitive comment about breakpoint values with single one (Prateek Saxena)
+* build: Bump dependencies to latest (Volker E)
+
+* Add mobile and desktop thresholds (Volker E)
+* Add `border-color-wikitable` variable (Volker E)
+* Add `box-shadow-card` variable (Volker E)
+* Add `font-family-monospace` variable (Volker E)
+* Replace wrong `border-color-base--disabled` value (Volker E)
+* Clarify referencing color palette vars & use LESS style comments (Volker E)
+* README: Use clearer and more consistent description (Volker E)
 
 ## v0.10.0 (2017-11-08)
 * Add mobile and desktop thresholds (Volker E)
