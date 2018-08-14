@@ -64,11 +64,14 @@
 
 	/* Background Colors */
 	--background-color-base:        var( --wmui-color-base100 );
+	--background-color-base--disabled: var( --wmui-color-base80 );
 	--background-color-code:        var( --wmui-color-base90 );
-	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches...) */
+	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches…) */
 	--background-color-framed:      var( --wmui-color-base90 );
 	--background-color-framed--hover: var( --wmui-color-base100 );
 	--background-color-framed--active: var( --wmui-color-base70 );
+	/* 'Filled' UI elements (Checkboxes, Radios, ProgressBars…) */
+	--background-color-filled--disabled: var( --wmui-color-base70 );
 	/* Tabs Navigation Background Color */
 	--background-color-tabs:       var( --wmui-color-base80 );
 	/* Highlight Colors, RGBA Colors include hex fallback on `#fff` for IE 6/7/8 */
