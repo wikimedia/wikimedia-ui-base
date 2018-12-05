@@ -1,4 +1,9 @@
 # WikimediaUI Base Variables Release History
+## v0.13.0 (2018-12-05)
+* Add `font-family-system-sans` font stack (Volker E)
+* Add monospace font stack (Volker E)
+* build: Update dependencies (Volker E)
+
 ## v0.12.0 (2018-08-16)
 * Add `background-color-base--hover` variable (Volker E)
 * Add general `size`, `min-size` & `max-size` variables (Volker E)
