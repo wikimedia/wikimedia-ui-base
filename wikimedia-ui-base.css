@@ -187,9 +187,9 @@
 	--font-family-heading-main:        var( --font-family-serif );
 	/* To be deprecated */
 	--font-family-sans:                'Helvetica Neue', 'Helvetica', 'Nimbus Sans L', 'Arial', 'Liberation Sans', sans-serif;
-	/* Provide better system-specific readability */
+	/* Provide better operating system-specific readability, see T175877 */
 	/* `system-ui` is currently not an option due to OS/language combination issues, see T175877#4776576 */
-	--font-family-system-sans:         -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
+	--font-family-system-sans:         -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 	--font-family-sans--fallback:      sans-serif;
 	--font-family-serif:               'Linux Libertine', 'Georgia', 'Times', serif;
 	--font-family-serif--fallback:     serif;
