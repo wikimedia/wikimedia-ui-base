@@ -80,6 +80,11 @@
 	--background-color-tool--active-hover: var( --background-color-primary--hover );
 	/* Tabs Navigation Background Color */
 	--background-color-tabs:           var( --wmui-color-base80 );
+	/* User system messages (errors, warnings, successes, notices) */
+	--background-color-error--framed:  var( --wmui-color-red90 );
+	--background-color-warning--framed: var( --wmui-color-yellow90 );
+	--background-color-success--framed: var( --wmui-color-green90 );
+	--background-color-notice--framed: var( --wmui-color-base80 );
 	/* Highlight Colors, RGBA Colors include hex fallback on `#fff` for IE 6/7/8 */
 	--background-color-highlight:      rgba( 255, 182, 13, 0.4 );
 	--background-color-highlight--fallback: #ffe29e;
@@ -112,8 +117,12 @@
 	--color-secondary--hover:          #1c6665;
 	--color-secondary--active:         var( --wmui-color-green30 );
 	--color-secondary--focus:          var( --color-secondary );
-	/* Validation error feedback */
-	--color-erroneous:                 var( --wmui-color-red50 );
+	/* User system messages (errors, warnings, successes, notices) */
+	--color-error:                     var( --wmui-color-red50 );
+	--color-warning:                   var( --wmui-color-base0 );
+	--color-success:                   var( --wmui-color-green30 );
+	--color-success--framed:           var( --wmui-color-base0 );
+	--color-notice:                    var( --wmui-color-base0 );
 	/* Toolbar and Tools */
 	--color-tool--hover:               var( --color-base--emphasized ); /* Used here in combination with `:hover` background-color turning light grey */
 	--color-tool--active:              var( --color-primary );
@@ -153,6 +162,11 @@
 	--border-base:                     var( --border-width-base ) var( --border-style-base ) var( --border-color-base );
 	--border-dialog:                   var( --border-base );
 	--border-menu:                     var( --border-base );
+	/* User system messages (errors, warnings, successes, notices) */
+	--border-error:                    var( --border-width-base ) var( --border-style-base ) var( --color-error );
+	--border-warning:                  var( --border-width-base ) var( --border-style-base ) var( --wmui-color-yellow50 );
+	--border-success:                  var( --border-width-base ) var( --border-style-base ) var( --color-success );
+	--border-notice:                   var( --border-base );
 	/* Border Colors */
 	--border-color-base:               var( --wmui-color-base50 );
 	--border-color-base--hover:        var( --wmui-color-base50 );

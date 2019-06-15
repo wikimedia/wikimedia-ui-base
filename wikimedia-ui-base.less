@@ -74,6 +74,11 @@
 @background-color-tool--active-hover: @background-color-primary--hover;
 // Tabs Navigation Background Color
 @background-color-tabs:           @wmui-color-base80;
+// User system messages (errors, warnings, successes, notices)
+@background-color-error--framed: @wmui-color-red90;
+@background-color-warning--framed: @wmui-color-yellow90;
+@background-color-success--framed: @wmui-color-green90;
+@background-color-notice--framed: @wmui-color-base80;
 // Highlight Colors, RGBA Colors include hex fallback on `#fff` for IE 6/7/8
 @background-color-highlight:      rgba( 255, 182, 13, 0.4 );
 @background-color-highlight--fallback: #ffe29e;
@@ -106,8 +111,12 @@
 @color-secondary--hover:          #1c6665;
 @color-secondary--active:         @wmui-color-green30;
 @color-secondary--focus:          @color-secondary;
-// Validation error feedback
-@color-erroneous:                 @wmui-color-red50;
+// User system messages (errors, warnings, successes, notices)
+@color-error:                     @wmui-color-red50;
+@color-warning:                   @wmui-color-base0;
+@color-success:                   @wmui-color-green30;
+@color-success--framed:           @wmui-color-base0;
+@color-notice:                    @wmui-color-base0;
 // Toolbar and Tools
 @color-tool--hover:               @color-base--emphasized; // Used here in combination with `:hover` background-color turning light grey
 @color-tool--active:              @color-primary;
@@ -147,6 +156,11 @@
 @border-base:                     @border-width-base @border-style-base @border-color-base;
 @border-dialog:                   @border-base;
 @border-menu:                     @border-base;
+// User system messages (errors, warnings, successes, notices)
+@border-error:                    @border-width-base @border-style-base @color-error;
+@border-warning:                  @border-width-base @border-style-base @wmui-color-yellow50;
+@border-success:                  @border-width-base @border-style-base @color-success;
+@border-notice:                   @border-base;
 // Border Colors
 @border-color-base:               @wmui-color-base50;
 @border-color-base--hover:        @wmui-color-base50;
