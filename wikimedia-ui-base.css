@@ -141,6 +141,7 @@
 	/* == Positioning == */
 	/* Z-Index */
 	--z-index-base:                    0;
+	--z-index-overlay:                 101;
 
 
 	/* == Box Model properties == */
