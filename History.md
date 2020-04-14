@@ -1,4 +1,12 @@
 # WikimediaUI Base Variables Release History
+## v0.15.0 (2020-04-13)
+* Add 'z-index-overlay' variable (Volker E)
+* Amend Base10 color and hover derivative (Volker E)
+* Remove 'Nimbus Sans L' from `font-family-sans` value (Volker E)
+* Remove obsolete IE 6 & 7 specific comments (Volker E)
+* docs: Add Design Style Guide links to certain sections (Volker E)
+* build: Bump devDependencies to latest (Volker E)
+
 ## v0.14.0 (2019-06-17)
 * Add user system message variables (Volker E)
 * Amend monospace system font stack (Volker E)
