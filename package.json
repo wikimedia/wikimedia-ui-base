@@ -1,7 +1,7 @@
 {
   "name": "wikimedia-ui-base",
   "version": "0.15.0",
-  "description": "Wikimedia Foundation user interface base variables files",
+  "description": "Wikimedia Foundation user interface base variables stylesheet files",
   "keywords": [
     "css",
     "less",
@@ -10,7 +10,7 @@
   "homepage": "https://www.mediawiki.org/wiki/Wikimedia_User_Interface",
   "repository": {
     "type": "git",
-    "url": "https://phabricator.wikimedia.org/diffusion/WMUI/wikimedia-ui.git"
+    "url": "https://gerrit.wikimedia.org/g/wikimedia-ui-base/"
   },
   "scripts": {
     "test": "grunt"
