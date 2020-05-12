@@ -20,8 +20,10 @@ It is recommended that you include `wikimedia-ui-base.css` or
 central stylesheet file and – if necessary – add changes by overwriting
 the variable later in your code.
 
-** Example LESS import **
-`@import ( reference ) 'lib/wikimedia-ui-base.less';`
+### Example LESS import
+```
+@import ( reference ) 'lib/wikimedia-ui-base.less';`
+```
 
 ## Contribute
 Found a bug or missing a feature? Please report it in the [issue tracker](
