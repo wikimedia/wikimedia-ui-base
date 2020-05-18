@@ -215,6 +215,13 @@
 	/* Provide better operating system-specific monospace stack, see T209915. */
 	--font-family-monospace:           'Menlo', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
 	--font-family-monospace--fallback: monospace, monospace; /* See T176636. */
+	/* Font Weights */
+	--font-weight-base:                var( --font-weight-normal );
+	/* See https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#Common_weight_name_mapping */
+	--font-weight-hairline:            100;
+	--font-weight-normal:              400;
+	--font-weight-semi-bold:           600;
+	--font-weight-bold:                700;
 	/* Line Heights */
 	--line-height-base:                1.6;
 	--line-height-heading:             1.25;
