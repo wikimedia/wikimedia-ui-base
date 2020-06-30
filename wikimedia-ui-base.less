@@ -69,6 +69,9 @@
 @background-color-framed--active: @wmui-color-base70;
 // 'Filled' UI elements (Checkboxes, Radios, ProgressBars…)
 @background-color-filled--disabled: @wmui-color-base70;
+// Binary Input elements (Checkboxes, Radios, Toggle Switches)
+@background-color-input-binary--active: @color-primary--active;
+@background-color-input-binary--checked: @color-primary;
 // Toolbar and Tools
 @background-color-toolbar:        @background-color-base;
 @background-color-tool--hover:    @background-color-base--hover;
@@ -147,6 +150,7 @@
 
 @size-icon:                       20px;
 @size-indicator:                  12px;
+@size-input-binary:               20px;
 @size-tool:                       42px;
 
 // Max Widths
@@ -159,6 +163,7 @@
 @border-base:                     @border-width-base @border-style-base @border-color-base;
 @border-dialog:                   @border-base;
 @border-menu:                     @border-base;
+@border-input-binary:             @border-width-base @border-style-base @border-color-input-binary;
 // User system messages (errors, warnings, successes, notices)
 @border-error:                    @border-width-base @border-style-base @color-error;
 @border-warning:                  @border-width-base @border-style-base @wmui-color-yellow50;
@@ -173,6 +178,9 @@
 @border-color-primary--active:    @color-primary--active;
 @border-color-destructive--active: @color-destructive--active;
 @border-color-inset--focus:       @color-base--inverted;
+@border-color-input-binary:       @border-color-base--active;
+@border-color-input-binary--active: @color-primary--active;
+@border-color-input-binary--checked: @color-primary;
 @border-color-heading:            @wmui-color-base70;
 @border-color-wikitable:          rgba( 84, 89, 93, 0.3 ); // See T168029
 // Border Styles
