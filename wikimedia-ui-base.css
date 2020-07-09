@@ -188,6 +188,7 @@
 	--border-color-input-binary--active: var( --color-primary--active );
 	--border-color-input-binary--checked: var( --color-primary );
 	--border-color-heading:            var( --wmui-color-base70 );
+	--border-color-divider:            var( --wmui-color-base50 );
 	--border-color-wikitable:          rgba( 84, 89, 93, 0.3 ); /* See T168029 */
 	/* Border Styles */
 	--border-style-base:               solid;
