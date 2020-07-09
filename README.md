@@ -1,4 +1,5 @@
 # WikimediaUI Base stylesheet variables
+# https://gerrit.wikimedia.org/r/plugins/gitiles/wikimedia-ui-base/
 
 WikimediaUI Base repository provides stylesheets with variables containing
 [Wikimedia Foundation basic user interface style values](https://design.wikimedia.org/style-guide/).
