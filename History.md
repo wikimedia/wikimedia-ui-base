@@ -1,4 +1,16 @@
 # WikimediaUI Base Variables Release History
+## v0.16.0 (2020-07-09)
+* Add WikimediaUI binary input variables (Volker E)
+* Add `border-color-divider` variable (Volker E)
+* Add `border-radius-circle` variable (Volker E)
+* Add `font-weight*` variables (Volker E)
+* Add `min-size-base` variable (Volker E)
+* Remove .arcconfig (Volker E)
+* Replace primary active border values with correct design template ones (Volker E)
+* docs: Add Gitiles repo URL into header and README.md (Volker E)
+* docs: Add download options like npm and clarify usage (Volker E)
+* docs: Fix markdown syntax (Volker E)
+
 ## v0.15.0 (2020-04-13)
 * Add 'z-index-overlay' variable (Volker E)
 * Amend Base10 color and hover derivative (Volker E)
