@@ -201,6 +201,8 @@
 	--border-radius-circle:            50%;
 
 	/* Box Shadows */
+	/* Base widget `box-shadow` set to `transparent` for transition purpose. */
+	--box-shadow-base:                 inset 0 0 0 1px transparent;
 	--box-shadow-base--focus:          inset 0 0 0 1px var( --wmui-color-accent50 );
 	--box-shadow-primary-focus:        inset 0 0 0 1px var( --color-primary ), inset 0 0 0 2px var( --color-base--inverted );
 	--box-shadow-inset--inverted:      inset 0 0 0 1px var( --color-base--inverted );
