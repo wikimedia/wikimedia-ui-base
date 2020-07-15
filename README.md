@@ -1,5 +1,6 @@
 # WikimediaUI Base stylesheet variables
-# https://gerrit.wikimedia.org/r/plugins/gitiles/wikimedia-ui-base/
+
+<https://gerrit.wikimedia.org/g/wikimedia-ui-base/>
 
 WikimediaUI Base repository provides stylesheets with variables containing
 [Wikimedia Foundation basic user interface style values](https://design.wikimedia.org/style-guide/).
@@ -12,7 +13,7 @@ We are providing:
 Install the WikimediaUI Base variables in your project with one of these options:
 - Clone the repo: `git clone "https://gerrit.wikimedia.org/r/wikimedia-ui-base"`
 - Install via npm: `npm install wikimedia-ui-base`
-- [Download the latest release](https://gerrit.wikimedia.org/r/plugins/gitiles/wikimedia-ui-base/+archive/refs/heads/master.tar.gz)
+- [Download the latest release](https://gerrit.wikimedia.org/g/wikimedia-ui-base/+archive/refs/heads/master.tar.gz)
 
 
 ## Use
