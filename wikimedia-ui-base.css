@@ -66,6 +66,14 @@
 	--wmui-color-green50:  #00af89; /* = HSB 167°, 100%, 69% */
 	--wmui-color-green90:  #d5fdf4; /* = HSB 166°, 16%, 99% */
 
+	/* Modifier colors, not part of official palette, limited to interaction state usage. */
+	--wmui-color-base10--lighten: #404244;
+	--wmui-color-accent50--lighten: #447ff5; /* = `filter: brightness( 109% )` */
+	--wmui-color-red50--lighten: #ff4242; /* ~= `filter: brightness( 120% )` */
+	--wmui-color-green50--lighten: #1c6665;
+	--wmui-color-purple50: #6b4ba1;
+
+	/* From here on no static color values, only variable references. */
 	/* Background Colors */
 	--background-color-base:           var( --wmui-color-base100 );
 	--background-color-base--hover:    var( --wmui-color-base80 );
@@ -97,7 +105,7 @@
 
 	/* Foreground Colors */
 	--color-base:                      var( --wmui-color-base10 );
-	--color-base--hover:               #404244;
+	--color-base--hover:               var( --wmui-color-base10--lighten );
 	--color-base--active:              var( --wmui-color-base0 );
 	--color-base--inverted:            var( --wmui-color-base100 );
 	--color-base--emphasized:          var( --color-base--active );
@@ -109,18 +117,18 @@
 	--background-color-primary:        var( --wmui-color-accent90 );
 	--background-color-primary--hover: rgba( 41, 98, 204, 0.1 );
 	--color-primary:                   var( --wmui-color-accent50 );
-	--color-primary--hover:            #447ff5; /* = `filter: brightness( 109% )` */
+	--color-primary--hover:            var( --wmui-color-accent50--lighten );
 	--color-primary--active:           var( --wmui-color-accent30 );
 	--color-primary--focus:            var( --color-primary );
 	/* 'Destructive' Color, Background Color and states */
 	--background-color-destructive:    var( --wmui-color-red90 );
 	--color-destructive:               var( --wmui-color-red50 );
-	--color-destructive--hover:        #ff4242; /* ~= `filter: brightness( 120% )` */
+	--color-destructive--hover:        var( --wmui-color-red50--lighten );
 	--color-destructive--active:       var( --wmui-color-red30 );
 	--color-destructive--focus:        var( --color-destructive );
 	/* Secondary Color and states (links only) */
 	--color-secondary:                 var( --wmui-color-green50 );
-	--color-secondary--hover:          #1c6665;
+	--color-secondary--hover:          var( --wmui-color-green50--lighten );
 	--color-secondary--active:         var( --wmui-color-green30 );
 	--color-secondary--focus:          var( --color-secondary );
 	/* User system messages (errors, warnings, successes, notices) */
