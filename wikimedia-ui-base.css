@@ -219,6 +219,10 @@
 	--box-shadow-dialog:               0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
 	--box-shadow-menu:                 var( --box-shadow-dialog );
 
+	/* Outlines */
+	/* Enable Windows high contrast mode on certain widgets, that have default outlines overridden. */
+	--outline-base--focus:             var( --border-width-base ) var( --border-style-base ) transparent;
+
 
 	/* == Typography incl. print properties == */
 	/* See https://design.wikimedia.org/style-guide/visual-style_typography.html */
