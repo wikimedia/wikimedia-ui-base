@@ -1,4 +1,14 @@
 # WikimediaUI Base Variables Release History
+## v0.17.0 (2020-08-25)
+* Add `border-color-base--focus` variables (Volker E)
+* Add `box-shadow-base` variable (Volker E)
+* Add `outline-base--focus` variable (Volker E)
+* Add `padding-base*` and input-text variables (Volker E)
+* Add modifier color variable definitions (Volker E)
+* Remove unused IE 8 `background-color-highlight` fallback variable (Volker E)
+* docs: Clarify “Highlight colors” to be solely for text highlighting (Volker E)
+* docs: Use shorter /g/ URL for Gitiles (Timo Tijhof)
+
 ## v0.16.0 (2020-07-09)
 * Add WikimediaUI binary input variables (Volker E)
 * Add `border-color-divider` variable (Volker E)

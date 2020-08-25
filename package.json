@@ -1,6 +1,6 @@
 {
   "name": "wikimedia-ui-base",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "Wikimedia Foundation user interface base variables stylesheet files",
   "keywords": [
     "css",
