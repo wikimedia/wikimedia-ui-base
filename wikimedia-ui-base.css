@@ -257,7 +257,7 @@
 	--font-weight-bold:                700;
 	/* Line Heights */
 	--line-height-base:                1.6;
-	--line-height-heading:             1.25;
+	--line-height-heading:             1.3;
 	--text-decoration-link--hover:     none;
 	/* Text Shadows */
 	--text-shadow-base:                0 1px 1px var( --color-base--inverted ); /* 'coined' effect */
