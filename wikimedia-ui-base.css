@@ -194,6 +194,7 @@
 	--border-color-primary--active:    var( --color-primary--active );
 	--border-color-destructive--active: var( --color-destructive--active );
 	--border-color-inset--focus:       var( --color-base--inverted );
+	--border-color-input--hover:       var( --border-color-base--active );
 	--border-color-input-binary:       var( --border-color-base--active );
 	--border-color-input-binary--active: var( --color-primary--active );
 	--border-color-input-binary--checked: var( --color-primary );
