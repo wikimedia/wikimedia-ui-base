@@ -88,6 +88,11 @@
 	/* Binary Input elements (Checkboxes, Radios, Toggle Switches) */
 	--background-color-input-binary--active: var( --color-primary--active );
 	--background-color-input-binary--checked: var( --color-primary );
+	/* Quiet Buttons */
+	--background-color-quiet:          var( --background-color-base );
+	/* Use `rgba()` values here as the quiet buttons need to blend in with background. */
+	--background-color-quiet--hover:   rgba( 0, 24, 73, 7/255 ); // = `--wmui-color-base90` on white.
+	--background-color-quiet--active:  rgba( 0, 36, 73, 21/255 ); // = `--wmui-color-base80` on white.
 	/* Toolbar and Tools */
 	--background-color-toolbar:        var( --background-color-base );
 	--background-color-tool--hover:    var( --background-color-base--hover );
