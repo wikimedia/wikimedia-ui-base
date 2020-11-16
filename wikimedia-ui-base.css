@@ -186,9 +186,9 @@
 	--border-menu:                     var( --border-base );
 	--border-input-binary:             var( --border-width-base ) var( --border-style-base ) var( --border-color-input-binary );
 	/* User system messages (errors, warnings, successes, notices) */
-	--border-error:                    var( --border-width-base ) var( --border-style-base ) var( --color-error );
-	--border-warning:                  var( --border-width-base ) var( --border-style-base ) var( --wmui-color-yellow50 );
-	--border-success:                  var( --border-width-base ) var( --border-style-base ) var( --color-success );
+	--border-error:                    var( --border-width-base ) var( --border-style-base ) var( --border-color-error );
+	--border-warning:                  var( --border-width-base ) var( --border-style-base ) var( --border-color-warning );
+	--border-success:                  var( --border-width-base ) var( --border-style-base ) var( --border-color-success );
 	--border-notice:                   var( --border-base );
 	/* Border Colors */
 	--border-color-base:               var( --wmui-color-base50 );
@@ -214,6 +214,11 @@
 	--border-color-heading:            var( --wmui-color-base70 );
 	--border-color-divider:            var( --wmui-color-base50 );
 	--border-color-wikitable:          rgba( 84, 89, 93, 0.3 ); /* See T168029 */
+	/* Border Colors user system messages */
+	--border-color-error:              var( --color-error );
+	--border-color-warning:            var( --wmui-color-yellow50 );
+	--border-color-success:            var( --color-success );
+	--border-color-notice:             var( --border-color-base );
 	/* Border Styles */
 	--border-style-base:               solid;
 	/* Border Widths */

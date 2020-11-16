@@ -180,9 +180,9 @@
 @border-menu:                     @border-base;
 @border-input-binary:             @border-width-base @border-style-base @border-color-input-binary;
 // User system messages (errors, warnings, successes, notices)
-@border-error:                    @border-width-base @border-style-base @color-error;
-@border-warning:                  @border-width-base @border-style-base @wmui-color-yellow50;
-@border-success:                  @border-width-base @border-style-base @color-success;
+@border-error:                    @border-width-base @border-style-base @border-color-error;
+@border-warning:                  @border-width-base @border-style-base @border-color-warning;
+@border-success:                  @border-width-base @border-style-base @border-color-success;
 @border-notice:                   @border-base;
 // Border Colors
 @border-color-base:               @wmui-color-base50;
@@ -208,6 +208,11 @@
 @border-color-heading:            @wmui-color-base70;
 @border-color-divider:            @wmui-color-base50;
 @border-color-wikitable:          rgba( 84, 89, 93, 0.3 ); // See T168029
+// Border Colors user system messages
+@border-color-error:              @color-error;
+@border-color-warning:            @wmui-color-yellow50;
+@border-color-success:            @color-success;
+@border-color-notice:             @border-color-base;
 // Border Styles
 @border-style-base:               solid;
 // Border Widths
