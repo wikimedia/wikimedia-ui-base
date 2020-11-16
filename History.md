@@ -1,4 +1,15 @@
 # WikimediaUI Base Variables Release History
+## v0.18.0 (2020-11-16)
+* Add `background-color-quiet*` vars (Volker E)
+* Add `border-color-input--hover` variable (Volker E)
+* Add `border-color-primary*` and `border-color-destructive*` state vars (Volker E)
+* Add `box-shadow-destructive--focus` variable (Volker E)
+* Add `font-weight-light` variable (Volker E)
+* Add `opacity-icon-accessory` variable (Volker E)
+* Add system message `border-color*` variables (Volker E)
+* Amend `line-height-heading` slightly to mirror production values (Volker E)
+* build: Update dependencies (Volker E)
+
 ## v0.17.0 (2020-08-25)
 * Add `border-color-base--focus` variables (Volker E)
 * Add `box-shadow-base` variable (Volker E)
