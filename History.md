@@ -1,4 +1,8 @@
 # WikimediaUI Base Variables Release History
+## v0.18.1 (2020-12-03)
+* build: Update devDependencies (Volker E)
+* docs: Fix CSS comments (Volker E)
+
 ## v0.18.0 (2020-11-16)
 * Add `background-color-quiet*` vars (Volker E)
 * Add `border-color-input--hover` variable (Volker E)
