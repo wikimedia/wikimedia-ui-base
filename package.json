@@ -1,25 +1,26 @@
 {
-  "name": "wikimedia-ui-base",
-  "version": "0.18.1",
-  "description": "Wikimedia Foundation user interface base variables stylesheet files",
-  "keywords": [
-    "css",
-    "less",
-    "ui"
-  ],
-  "homepage": "https://www.mediawiki.org/wiki/Wikimedia_User_Interface",
-  "repository": {
-    "type": "git",
-    "url": "https://gerrit.wikimedia.org/g/wikimedia-ui-base/"
-  },
-  "scripts": {
-    "test": "grunt"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "grunt": "1.3.0",
-    "grunt-contrib-watch": "1.1.0",
-    "grunt-stylelint": "0.16.0",
-    "stylelint-config-wikimedia": "0.10.3"
-  }
+	"name": "wikimedia-ui-base",
+	"version": "0.18.1",
+	"description": "Wikimedia Foundation user interface base variables (design tokens) stylesheet files",
+	"homepage": "https://www.mediawiki.org/wiki/Wikimedia_User_Interface",
+	"license": "MIT",
+	"keywords": [
+		"css",
+		"less",
+		"tokens",
+		"ui"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://gerrit.wikimedia.org/g/wikimedia-ui-base/"
+	},
+	"scripts": {
+		"test": "npm -s run lint",
+		"lint": "npm -s run lint:styles",
+		"lint:fix:styles": "npm -s run lint:styles -- --fix",
+		"lint:styles": "stylelint \"**/*.{less,css}\""
+	},
+	"devDependencies": {
+		"stylelint-config-wikimedia": "0.10.3"
+	}
 }
