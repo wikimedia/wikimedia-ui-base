@@ -117,6 +117,7 @@
 	--color-base--subtle:              var( --wmui-color-base30 );
 	--color-base--disabled:            var( --wmui-color-base30 );
 	--color-filled--disabled:          var( --color-base--inverted );
+	--color-accessory:                 var( --wmui-color-base20 );
 	--color-placeholder:               var( --wmui-color-base30 );
 	/* Primary 'Progressive' Color, Background Color and states */
 	--background-color-primary:        var( --wmui-color-accent90 );
