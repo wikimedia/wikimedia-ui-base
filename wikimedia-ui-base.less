@@ -153,6 +153,11 @@
 
 
 // == Positioning ==
+// Positioning Model
+// Use `px` unit to prevent pixel rounding error when using `@size-input-binary / 4`.
+// Works with different sizes on mobile and desktop as it negatively offsets from outside.
+@offset-input-radio-focus:        -4px;
+
 // Z-Index
 @z-index-base:                    0;
 @z-index-overlay:                 101;
