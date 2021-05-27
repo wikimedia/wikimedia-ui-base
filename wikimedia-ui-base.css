@@ -233,6 +233,7 @@
 	/* Border Radius */
 	--border-radius-base:              2px;
 	--border-radius-circle:            50%;
+	--border-radius-input-radio:       var( --border-radius-circle );
 
 	/* Paddings */
 	--padding-base:                    var( --padding-vertical-base ) var( --padding-horizontal-base );
