@@ -173,6 +173,7 @@
 	/* `--*size` variables are used for `*width` & `*height` properties. */
 	--min-size-base:                   32px; /* Values used for `min-*` are defined in `px`, see T130691. */
 	--size-base:                       32px;
+	--size-full:                       100%;
 
 	--min-size-icon:                   20px;
 	--size-icon:                       20px;
