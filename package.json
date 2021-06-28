@@ -1,6 +1,6 @@
 {
 	"name": "wikimedia-ui-base",
-	"version": "0.18.1",
+	"version": "0.19.0",
 	"description": "Wikimedia Foundation user interface base variables (design tokens) stylesheet files",
 	"homepage": "https://www.mediawiki.org/wiki/Wikimedia_User_Interface",
 	"license": "MIT",

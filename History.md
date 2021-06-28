@@ -1,4 +1,15 @@
 # WikimediaUI Base Variables Release History
+## v0.19.0 (2020-06-28)
+* Add `background-color-base--read-only` var (Volker E)
+* Add `border-radius-input-radio` var (Volker E)
+* Add `color-accessory` variable (Volker E)
+* Add `padding-vertical-menu` var (Volker E)
+* Add 'offset-input-radio-focus' var (Volker E)
+* Rename offset variable to `position-offset-input-radio-focus` (Volker E)
+* Add `size-full` variable (Volker E)
+* build: Replace Grunt with npm scripts & remove obsolete dependencies (Volker E)
+* build: Update 'stylelint-config-wikimedia' to latest (Volker E)
+
 ## v0.18.1 (2020-12-03)
 * build: Update devDependencies (Volker E)
 * docs: Fix CSS comments (Volker E)
