@@ -29,4 +29,4 @@ the variable later in your code.
 
 ## Contribute
 Found a bug or missing a feature? Please report it in the [issue tracker](
-https://phabricator.wikimedia.org/maniphest/task/create/?projects=UI-Standardization)!
+https://phabricator.wikimedia.org/maniphest/task/create/?projects=WikimediaUI-Base)!
