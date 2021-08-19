@@ -231,7 +231,13 @@
 @border-width-base:               1px;
 // Border Radius
 @border-radius-base:              2px;
+// Use for circle or ellipsis.
+// See https://stackoverflow.com/a/29966500
 @border-radius-circle:            50%;
+// Use for rounded rectangle.
+// Corner overlap reduce radii to half of size of smallest side.
+// See https://www.w3.org/TR/css-backgrounds-3/#corner-overlap
+@border-radius-round:             9999px;
 @border-radius-input-radio:       @border-radius-circle;
 
 // Paddings
