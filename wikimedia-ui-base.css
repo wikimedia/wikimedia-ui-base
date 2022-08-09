@@ -93,7 +93,7 @@
 	--background-color-quiet:          var( --background-color-base );
 	/* Use `rgba()` values here as the quiet buttons need to blend in with background. */
 	--background-color-quiet--hover:   rgba( 0, 24, 73, calc( 7 / 255 ) ); /* = `--wmui-color-base90` on white. */
-	--background-color-quiet--active:  rgba( 0, 36, 73, calc( 21 / 255 ) ); /* = `--wmui-color-base80` on white. */
+	--background-color-quiet--active:  rgba( 0, 24, 73, calc( 21 / 255 ) ); /* = `--wmui-color-base80` on white. */
 	/* Toolbar and Tools */
 	--background-color-toolbar:        var( --background-color-base );
 	--background-color-tool--hover:    var( --background-color-base--hover );
