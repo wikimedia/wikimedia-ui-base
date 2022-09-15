@@ -21,6 +21,6 @@
 		"lint:styles": "stylelint \"**/*.{less,css}\""
 	},
 	"devDependencies": {
-		"stylelint-config-wikimedia": "0.13.0"
+		"stylelint-config-wikimedia": "0.13.1"
 	}
 }
