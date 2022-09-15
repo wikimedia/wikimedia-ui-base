@@ -83,7 +83,7 @@
 	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches…) */
 	--background-color-framed:         var( --wmui-color-base90 );
 	--background-color-framed--hover:  var( --wmui-color-base100 );
-	--background-color-framed--active: var( --wmui-color-base70 );
+	--background-color-framed--active: var( --wmui-color-base80 );
 	/* 'Filled' UI elements (Checkboxes, Radios, ProgressBars…) */
 	--background-color-filled--disabled: var( --wmui-color-base70 );
 	/* Binary Input elements (Checkboxes, Radios, Toggle Switches) */
