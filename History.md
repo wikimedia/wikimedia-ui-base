@@ -1,4 +1,13 @@
 # WikimediaUI Base Variables Release History
+## v0.22.0 (2023-05-16)
+- Add `opacity-icon-base--disabled` var and deprecate falsely named (Volker E)
+- Increase `line-height-heading` slightly to follow Codex (Volker E)
+- Deprecate `transition-ease-*` vars (Volker E)
+- Add `green700` and use darker colors for Message borders (Volker E)
+- Add LICENSE.md file (James D. Forrester)
+- build: Updating stylelint-config-wikimedia to 0.14.0 (libraryupgrader)
+- build: Update .nvmrc to 16.19.1 (Volker E)
+
 ## v0.21.0 (2022-12-06)
 * Amend Yellow 600 (Yellow50) color decision token (Volker E)
 
