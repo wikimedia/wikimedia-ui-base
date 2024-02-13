@@ -32,7 +32,6 @@
 	/* Extra wide desktop breakpoint */
 	--width-breakpoint-desktop-extrawide: 2000px;
 
-
 	/* == Colors == */
 	/**
 	 * WikimediaUI (`wmui`) color palette
@@ -151,7 +150,6 @@
 	--color-tool--hover:               var( --color-base--emphasized ); /* Used here in combination with `:hover` background-color turning light grey */
 	--color-tool--active:              var( --color-primary );
 
-
 	/* Opacity */
 	--opacity-base:                    1;
 	--opacity-icon-base:               0.87; /* = `#222` on `background-color: #fff`, closest to `#202122` */
@@ -159,7 +157,6 @@
 	--opacity-icon-base--selected:     1;
 	--opacity-icon-base--disabled:     0.51; /* = `#7d7d7d` on `background-color: #fff`, closest to `#72777d`.  HSB 0°, 0%, 49%. */
 	--opacity-icon-accessory:          0.67; /* = `#555`, closest to `#54595d` on background-color `#fff`. */
-
 
 	/* == Positioning == */
 	/* Positioning Model */
@@ -170,7 +167,6 @@
 	/* Z-Index */
 	--z-index-base:                    0;
 	--z-index-overlay:                 101;
-
 
 	/* == Box Model properties == */
 	/* Box Sizing */
@@ -273,7 +269,6 @@
 	/* Enable Windows high contrast mode on certain widgets, that have default outlines overridden. */
 	--outline-base--focus:             var( --border-width-base ) var( --border-style-base ) transparent;
 
-
 	/* == Typography incl. print properties == */
 	/* See https://design.wikimedia.org/style-guide/visual-style_typography.html */
 	/* Font Families */
@@ -306,11 +301,9 @@
 	--text-shadow-base:                0 1px 1px var( --color-base--inverted ); /* 'coined' effect */
 	--text-shadow-base--disabled:      var( --text-shadow-base );
 
-
 	/* == Other Properties == */
 	/* Cursors */
 	--cursor-base--disabled:           default;
-
 
 	/* == Animation & Transition == */
 	/* Transitions */
