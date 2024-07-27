@@ -1,7 +1,6 @@
 {
 	"extends": "stylelint-config-wikimedia",
 	"rules": {
-		"stylistic/declaration-colon-space-after": null,
-		"max-empty-lines": null
+		"@stylistic/declaration-colon-space-after": null
 	}
 }
